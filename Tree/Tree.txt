@@ -1,0 +1,81 @@
+Node - Contains value in a tree.
+
+Root - The top node of the tree.
+
+Leaf - Nodes which do no have any children.(Also can be described as the nodes 
+who have degree as 0).
+
+Child - Nodes below a certain node is called child of that node.
+
+Parent - Node above a certain node is called parent of a node.
+
+Decendant - Considering that node a root, all the nodes that are forming a tree 
+are called the decendant of that particular node.
+
+Ancestors - Topmost node above that certain node is called ancestors.
+
+Degree - Number of children of a particular node is called degree of that node.
+
+Internal Node - Everything other than Leaf node is called a internal node.
+
+
+
+
+
+
+
+L-2
+** Application of tree
+-To Represent Hierarchical Data
+
+
+
+
+
+
+L-3
+Binary tree - Each node has atmost 2 children.
+
+
+
+
+
+
+
+L-4
+2 Types of searches :-
+-Breath First Search(Level Order)
+-Depth First Search
+
+3 Types of Depth First Search :-
+
+*InOrder
+*PreOrder
+*PostOrder
+
+InOrder (Left Root Right)
+PreOrder (Root Left Right)
+PostOrder (Left Right Root)
+
+    10
+   /  \
+  20  30
+
+InOrder : 20 10 30
+PreOrder : 10 20 30
+PostOrder : 20 30 10
+
+Q) Find the InOrder, PreOrder, PostOrder of the following graph
+
+           10
+          /  \
+         20  30       
+        /  \   \
+       40  50  60
+          /  \
+         70  80
+
+Ans) 
+*InOrder -> 40 20 70 50 80 10 30 60
+*PreOrder -> 10 20 40 50 70 80 30 60
+*PostOrder -> 40 70 80 50 20 60 30 10
